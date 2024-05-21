@@ -1,23 +1,27 @@
 "use client"; 
 
-// components/Collage.js
+// components/Collage.tsx
 import Image from 'next/image';
 import "../globals.css";
-import React, { useState } from 'react';
+import React from 'react';
 
-const Grid = ({ images }) => {
+interface GridProps {
+  images: string[];
+}
+
+const Grid: React.FC<GridProps> = ({ images }) => {
   return (
-  <div className="grid-collages">
-  <div className="grid">
-    <div className="collages">
-      {images.map((image, index) => (
-        <div key={index} className={`picture picture-${index}`}>
-          <Image src={image} width={200} height={200} />
+    <div className="grid-collages">
+      <div className="grid">
+        <div className="collages">
+          {images.map((image, index) => (
+            <div key={index} className={`picture picture-${index}`}>
+              <Image src={image} width={200} height={200} alt={`Collage image ${index}`} />
+            </div>
+          ))}
         </div>
-      ))}
+      </div>
     </div>
-  </div>
-  </div>
   );
 };
 
