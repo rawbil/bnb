@@ -7,7 +7,7 @@ import Grid from '@/app/ui/grid';
 
 interface CollageProps {
   name: string;
-  image: string;
+  images: string;
 }
 
 const CustomCarousel = ({ images, name }) => {
