@@ -1,6 +1,7 @@
 {
-  "extends": "next",
+  "extends": "next/core-web-vitals",
   "rules": {
+    "react/no-unknown-property": "off",
     "react/no-unescaped-entities": "off",
     "@next/next/no-page-custom-font": "off"
   }
