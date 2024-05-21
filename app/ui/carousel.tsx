@@ -4,13 +4,12 @@ import React, { useState } from 'react';
 import '../globals.css';
 import Grid from '@/app/ui/grid';
 
-
 interface CollageProps {
   name: string;
   images: string[];
 }
 
-const CustomCarousel = ({ images, name }) => {
+const CustomCarousel: React.FC<CollageProps> = ({ images, name }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [showComponent, setShowComponent] = useState(false);
 
@@ -18,7 +17,7 @@ const CustomCarousel = ({ images, name }) => {
     setShowComponent(!showComponent);
   };
 
-  const handleIconClick = (e) => {
+  const handleIconClick = (e: React.MouseEvent<HTMLSpanElement>) => {
     e.stopPropagation(); // Prevent the click event from bubbling up to the parent div
     setShowComponent(false); // Hide the component
   };
@@ -33,32 +32,35 @@ const CustomCarousel = ({ images, name }) => {
   
   return (
     <div>
-    <h1>{name}</h1>
-    <div onClick={handleClick} className="carousel">
-      <button className="navButton" onClick={goToPrevSlide}>
-        &lt;
-      </button>
-      <div className="slideContainer">
-        {images.map((image, index) => (
-          <div
-            key={index}
-            className={`slide ${index === currentSlide ? 'active' : ''}`}
-          >
-            <img src={image} alt={`Slide ${index}`} />
-          </div>
-        ))}
+      <h1>{name}</h1>
+      <div onClick={handleClick} className="carousel">
+        <button className="navButton" onClick={goToPrevSlide}>
+          &lt;
+        </button>
+        <div className="slideContainer">
+          {images.map((image, index) => (
+            <div
+              key={index}
+              className={`slide ${index === currentSlide ? 'active' : ''}`}
+            >
+              <img src={image} alt={`Slide ${index}`} />
+            </div>
+          ))}
+        </div>
+        <button className="navButton" onClick={goToNextSlide}>
+          &gt;
+        </button>
       </div>
-      <button className="navButton" onClick={goToNextSlide}>
-        &gt;
-      </button>
-    </div>
-    {showComponent && <div className="tog">
-      <span className="togg" onClick={handleIconClick} style={{ cursor: 'pointer' }}>
+      {showComponent && (
+        <div className="tog">
+          <span className="togg" onClick={handleIconClick} style={{ cursor: 'pointer' }}>
             Back {name}
-      </span>
-      <Grid images={images} /></div>}
+          </span>
+          <Grid images={images} />
+        </div>
+      )}
       <span className="togg-b" onClick={handleIconClick} style={{ cursor: 'pointer' }}>
-            Back
+        Back
       </span>
     </div>
   );
