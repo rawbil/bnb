@@ -289,8 +289,6 @@ h2.section-bed{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: ;
-
 }
 
 .rules div{
@@ -337,7 +335,6 @@ h2.section-bed{
 .bed{
   display: flex;
   flex-wrap: wrap;
-  flex-direction: ;
 }
 .bed>div{
   width: auto;
@@ -719,7 +716,7 @@ nav hr {
 }
 
 .search form div input[type="text"] {
-  width: ;
+  
 }
 
 .search form .where{
