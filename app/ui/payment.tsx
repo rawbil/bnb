@@ -11,16 +11,16 @@ interface CardProps {
 
 const Payment: React.FC<CardProps> = ({ price, description }) => {
   const [info, setError] = useState('');
-  const [errorType, setErrorType] = useState('info');
+  const [errorType, setErrorType] = useState<'info' | 'warning' | 'error'>('info');
 
-  const handleError = (type) => {
+  const handleError = (type: 'info' | 'warning' | 'error') => {
     setError('Online reservation are not available at the moment! Please contact +254115425094 on Whatsapp to complete your room reservation. Thank you');
     setErrorType(type);
   };
 
-    return(
+  return (
     <div className="check-rt">
-        <div className="check">
+      <div className="check">
         <p>{price}<span>night</span></p>
         <form action="" className="grid grid-cols2 grid-rows2">
           <div className="date col-span-1 row-span-1">
@@ -38,13 +38,13 @@ const Payment: React.FC<CardProps> = ({ price, description }) => {
         </form>
         <span>Those dates are not available</span>
         <button onClick={() => handleError('error')}>Check reservation</button>
-       </div>
+      </div>
       <div className="story">
         {description}
       </div>
-     <ErrorMessage message={info} />
-     </div>
-    );
+      <ErrorMessage message={info} type={errorType} />
+    </div>
+  );
 };
 
 export default Payment;
