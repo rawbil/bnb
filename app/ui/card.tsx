@@ -11,6 +11,7 @@ interface CardProps {
   title: string;
   description: string;
   imageUrl?: string;
+  rate: string;
 }
 
 const Card: React.FC<CardProps> = ({ county, hrefLink, specific, region, price, rate, description, imageUrl }) => {
