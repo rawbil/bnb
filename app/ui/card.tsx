@@ -8,8 +8,6 @@ import React,  { useState } from 'react';
 import CustomCarousel from '@/app/ui/carousel';
 
 interface CardProps {
-  title: string;
-  description: string;
   imageUrl?: string;
   rate: string;
   hrefLink: string;
@@ -19,7 +17,7 @@ interface CardProps {
   county: string;
 }
 
-const Card: React.FC<CardProps> = ({ county, hrefLink, specific, region, price, rate, description, imageUrl }) => {
+const Card: React.FC<CardProps> = ({ county, hrefLink, specific, region, price, rate, imageUrl }) => {
   return (
     <div className="card bg-white rounded-lg overflow-hidden shadow-md">
       <a href={hrefLink} target="blank">
