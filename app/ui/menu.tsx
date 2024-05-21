@@ -19,7 +19,7 @@ const MobileMenu = () => {
     <nav className="mobile-menu">
       <div className="menu-toggle" onClick={toggleMenu}><FaBarsStaggered /></div>
       <ul className={`menu-items ${isOpen ? 'open' : ''}`}>
-        <li><a href="#" class="active">stays</a></li>
+        <li><a href="#" className="active">stays</a></li>
         <li><a href="#">Experiences</a></li>
         <li><a href="#">Online experiences</a></li>
         <li><a href='#'>Airbnb your home</a></li>

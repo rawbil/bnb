@@ -43,20 +43,20 @@ const IndexPage: React.FC = () => {
   const description1 = "This is one of the apartments with a swimming pool.";
 
   return (
-    <div class="home-more">
-      <div class="gallery-carousel">
+    <div className="home-more">
+      <div className="gallery-carousel">
         <CustomCarousel images={images} name= {name} />
       </div>
-      <div class="gallery-collage">
+      <div className="gallery-collage">
         <Collage images={images} name= {name} />
       </div>
-      <div class="des">
-       <div class="des-sc">
+      <div className="des">
+       <div className="des-sc">
         <h2>Entire home in Jambiani, Tanzania</h2>
         <Assets guests={NoOfGuests} bedroom={NoOfBedroom} bed={NoOfBeds} bath="2" />
         <hr />
-        <h2 class="section-bed">Where you&apos;ll sleep</h2>
-        <div class="bed">
+        <h2 className="section-bed">Where you&apos;ll sleep</h2>
+        <div className="bed">
           <div>
             <MdOutlineBedroomParent />
             <span>Bedrooms</span>

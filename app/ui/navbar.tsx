@@ -45,7 +45,7 @@ const Navbar = () => {
         /><div>
           <div className={`pc-menu search scrolled-menu ${showNav ? 'hidden' : ''}`} id="scrolled-menu">
         <form>
-          <div class="scrol">
+          <div className="scrol">
             <RiSearch2Line />
           </div>
           <div>
@@ -67,7 +67,7 @@ const Navbar = () => {
       </div>
       <div className={`search ${showNav ? '' : 'hidden'}`} id="pc-search">
         <form>
-          <div class="where">
+          <div className="where">
             <label>Where</label>
             <input type="text" placeholder="Map area" />
           </div>
@@ -92,7 +92,7 @@ const Navbar = () => {
       
       <div className={`pc-menu search mobile${showNav ? '' : ''}`} id="mobile-2">
         <form>
-          <div class="scrol">
+          <div className="scrol">
             <RiSearch2Line />
           </div>
           <div>

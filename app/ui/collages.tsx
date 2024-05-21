@@ -24,7 +24,7 @@ const Collage = ({ images, name }) => {
   return (
   <div>
    <h1>{name}</h1>
-    <div onClick={handleClick} id="pc" style={{ cursor: 'pointer' }} class="collage" className="collage grid grid-cols-2 grid-rows-4 gap-3">
+    <div onClick={handleClick} id="pc" style={{ cursor: 'pointer' }} className="collage" className="collage grid grid-cols-2 grid-rows-4 gap-3">
       {/* First row */}
       <div className="col-span-2 row-span-2">
         <img src={images[0]} alt="Image 1" className="w-full h-full object-cover" />
@@ -43,7 +43,7 @@ const Collage = ({ images, name }) => {
         <img src={images[4]} alt="Image 5" className="w-full h-full object-cover" />
       </div>
     </div>
-    <div onClick={handleClick} id="tablet" style={{ cursor: 'pointer' }} class="collage" className="collage grid grid-cols-2 grid-rows-3 gap-3">
+    <div onClick={handleClick} id="tablet" style={{ cursor: 'pointer' }} className="collage" className="collage grid grid-cols-2 grid-rows-3 gap-3">
       {/* First row */}
       <div className="col-span-2 row-span-2">
         <img src={images[0]} alt="Image 1" className="w-full h-full object-cover" />
@@ -57,7 +57,7 @@ const Collage = ({ images, name }) => {
       </div>
     </div>
     {showComponent && <div>
-      <span class="togg" onClick={handleIconClick} style={{ cursor: 'pointer' }}>
+      <span className="togg" onClick={handleIconClick} style={{ cursor: 'pointer' }}>
             Back {name}
       </span>
       <Grid images={images} /></div>}

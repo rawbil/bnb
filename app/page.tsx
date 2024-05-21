@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
     <main className="flex min-h-screen flex-col items-center justify-between p-5">
-      <div class="section-1" className="flex p-5">
+      <div className="section-1" className="flex p-5">
       <Card
         rate="4.92"
         hrefLink="./homes/DianiVilla"

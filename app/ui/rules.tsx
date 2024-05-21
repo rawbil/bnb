@@ -5,7 +5,7 @@ export default function Rules(){
     return(
      <div>
         <h2>Things to know</h2>
-        <div class="rules">
+        <div className="rules">
         <div>
           <h3>House Rules</h3>
           <p>Check-in: 12:00 PM - 10:00 PM</p>

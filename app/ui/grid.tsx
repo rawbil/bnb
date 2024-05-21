@@ -7,7 +7,7 @@ import React, { useState } from 'react';
 
 const Grid = ({ images }) => {
   return (
-  <div class="grid-collages">
+  <div className="grid-collages">
   <div className="grid">
     <div className="collages">
       {images.map((image, index) => (

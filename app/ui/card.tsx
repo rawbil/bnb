@@ -15,16 +15,16 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ county, hrefLink, specific, region, price, rate, description, imageUrl }) => {
   return (
-    <div class="card" className="bg-white rounded-lg overflow-hidden shadow-md">
+    <div className="card" className="bg-white rounded-lg overflow-hidden shadow-md">
       <a href={hrefLink} target="blank">
       {imageUrl && (
         <img className="w-full h-40 object-cover" src={imageUrl} alt={county} />
       )}
-      <div class="desc" className="">
-        <h2>{county}</h2><p class="tit"><i><GoStarFill /></i>{rate}</p>
-        <p class="p">{region}</p>
-        <p class="p">{specific}</p>
-        <p class="price">{price}<span>night</span></p>
+      <div className="desc" className="">
+        <h2>{county}</h2><p className="tit"><i><GoStarFill /></i>{rate}</p>
+        <p className="p">{region}</p>
+        <p className="p">{specific}</p>
+        <p className="price">{price}<span>night</span></p>
       </div>
       </a>
     </div>

@@ -51,12 +51,12 @@ const CustomCarousel = ({ images, name }) => {
         &gt;
       </button>
     </div>
-    {showComponent && <div class="tog">
-      <span class="togg" onClick={handleIconClick} style={{ cursor: 'pointer' }}>
+    {showComponent && <div className="tog">
+      <span className="togg" onClick={handleIconClick} style={{ cursor: 'pointer' }}>
             Back {name}
       </span>
       <Grid images={images} /></div>}
-      <span class="togg-b" onClick={handleIconClick} style={{ cursor: 'pointer' }}>
+      <span className="togg-b" onClick={handleIconClick} style={{ cursor: 'pointer' }}>
             Back
       </span>
     </div>

@@ -9,7 +9,7 @@ export default function Footer(){
                <span>Airbnb kenya</span>  
             </div>
             <hr />
-            <div class="footer">
+            <div className="footer">
                 <h1>Support</h1>
                 <ul>
                     <li>Help Center</li>
@@ -21,10 +21,10 @@ export default function Footer(){
                 </ul>
             </div>
             <hr />
-            <div class="ft">
+            <div className="ft">
                 <span>&copy; <p>2024 Airbnb,inc</p></span>
-                <div class="foot">
-                <ul class="lk">
+                <div className="foot">
+                <ul className="lk">
                     <li>Terms</li>
                     <li>Sitemap</li>
                     <li>Privacy</li>
