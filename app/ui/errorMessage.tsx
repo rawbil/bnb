@@ -1,7 +1,6 @@
 // components/ErrorMessage.tsx
 import "../globals.css";
 import React from 'react';
-import PropTypes from 'prop-types';
 
 interface ErrorMessageProps {
   message: string;
@@ -11,7 +10,7 @@ interface ErrorMessageProps {
 const ErrorMessage: React.FC<ErrorMessageProps> = ({ message, type = 'error' }) => {
   if (!message) return null;
 
-  const baseStyles = {
+  const baseStyles: { [key: string]: React.CSSProperties } = {
     container: {
       padding: '10px',
       margin: '10px auto',
@@ -28,7 +27,7 @@ const ErrorMessage: React.FC<ErrorMessageProps> = ({ message, type = 'error' }) 
     },
   };
 
-  const getStyles = (type: string) => {
+  const getStyles = (type: string): { container: React.CSSProperties; message: React.CSSProperties } => {
     switch (type) {
       case 'warning':
         return {
@@ -74,11 +73,6 @@ const ErrorMessage: React.FC<ErrorMessageProps> = ({ message, type = 'error' }) 
       <p style={styles.message}>{message}</p>
     </div>
   );
-};
-
-ErrorMessage.propTypes = {
-  message: PropTypes.string.isRequired,
-  type: PropTypes.oneOf(['error', 'warning', 'info']),
 };
 
 export default ErrorMessage;
