@@ -54,7 +54,7 @@ const IndexPage: React.FC = () => {
         <h2>{name}, {Location}</h2>
         <Assets guests={NoOfGuests} bedroom={NoOfBedroom} bed={NoOfBeds} bath="2" />
         <hr />
-        <h2 class="section-bed">Where you'll sleep</h2>
+        <h2 class="section-bed">Where you&apos;ll sleep</h2>
         <div class="bed">
           <div>
             <MdOutlineBedroomParent />
