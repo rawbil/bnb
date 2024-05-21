@@ -23,11 +23,11 @@ const Payment: React.FC<CardProps> = ({ price, description }) => {
         <div className="check">
         <p>{price}<span>night</span></p>
         <form action="" className="grid grid-cols2 grid-rows2">
-          <div className="date" className="col-span-1 row-span-1">
+          <div className="date col-span-1 row-span-1">
             <label>Check-in</label>
             <input type="date" name="" value="2024-08-05" id="" />
           </div>
-          <div className="date" className="col-span-1 row-span-1">
+          <div className="date col-span-1 row-span-1">
             <label>Checkout</label>
             <input type="date" name="" value="2024-08-11" id="" />
           </div>
