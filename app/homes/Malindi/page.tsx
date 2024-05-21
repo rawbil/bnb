@@ -1,7 +1,7 @@
 import Rules from '@/app/ui/rules';
 import Payment from '@/app/ui/payment';
 /*import Amenities from '@/app/ui/amenities';*/
-import Amenities from '@/app/Amenities/amen1';
+import Amenities from '@/app/Amenities/amen';
 import "@/app/globals.css";
 import Collage from '@/app/ui/collages';
 import Assets from '@/app/ui/mainAssets';
