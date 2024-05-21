@@ -30,7 +30,7 @@ export default function Amenities(){
         <li><PiCourtBasketball />Basketball coat</li>
         <li><FaKitchenSet />Kitchen</li>
         <li><TbParking />Free parking</li>
-        <li className="absent"><TbBrandCarbon />Carbon monoxide alarm</li>
+        <li><TbBrandCarbon />Carbon monoxide alarm</li>
       </ul> 
      {/*<button>Show all 33 amenities</button>*/}
     </div>
