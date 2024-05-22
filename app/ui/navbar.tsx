@@ -56,8 +56,8 @@ const Navbar = () => {
         </form>
       </div>
         <div className={`pc-menu ${showNav ? '' : 'hidden'}`} id="pc-m">
-          <a href="#" className="active">Stays</a>
-          <a href="#">Experiences</a>
+          <a href="."className="active">Stays</a>
+          <a href="./homes/reviews">Experiences</a>
           <a href="#">Online Experiences</a>
         </div></div>
         <div className="avatar">

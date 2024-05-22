@@ -8,16 +8,14 @@ export default function Rules(){
         <div className="rules">
         <div>
           <h3>House Rules</h3>
-          <p>Check-in: 12:00 PM - 10:00 PM</p>
-          <p>Checkout before 11:00 AM</p>
-          <p>2 guests maximum</p>
-          <a href="#">Show more</a>
+          <p>Check-in: 10:00 AM</p>
+          <p>Checkout before 10:00 AM</p>
+          <p>If room is to exceed the guest maximum, contact customer care for further help.</p>
         </div>
         <div>
           <h3>Safety & property</h3>
           <p>Carbon monoxide alarm not reported</p>
           <p>Smoke alarm</p>
-          <a href="#">Show more</a>
         </div>
         <div>
           <h3>Cancellation policy</h3>

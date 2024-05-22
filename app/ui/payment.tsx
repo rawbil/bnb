@@ -37,7 +37,7 @@ const Payment: React.FC<CardProps> = ({ price, description }) => {
           </div>
         </form>
         <span>Those dates are not available</span>
-        <button onClick={() => handleError('error')}>Check reservation</button>
+        <button onClick={() => handleError('warning')}>Check reservation</button>
       </div>
       <div className="story">
         {description}

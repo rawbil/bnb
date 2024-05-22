@@ -1097,3 +1097,59 @@ input{
 }
 
 
+/* styles/Reviews.module.css */
+
+.r-container {
+  padding: 0 2rem;
+}
+
+.r-container .main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.r-container .title {
+  margin: 20px auto;
+  font-size: 2.5rem;
+  text-align: center;
+  width: 80vw;
+}
+
+.r-container .review {
+  margin: 2rem 0;
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+  border: 1px solid;
+  border-color: rgba(17, 17, 26, 0.2);
+  border-radius: 10px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.r-container .reviewer {
+  margin: 0 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+.r-container .rating {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+.r-container .rating span{
+  color: var(--color-orange);
+}
+
+.r-container .date {
+  margin: 0 0 1rem;
+  color: #666;
+}
+
+.r-container .content {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}

@@ -16,7 +16,7 @@ const ErrorMessage: React.FC<ErrorMessageProps> = ({ message, type = 'error' }) 
       margin: '10px auto',
       border: '1px solid',
       borderLeft: '5px solid',
-      borderRadius: '2px',
+      borderRadius: '5px',
       fontSize: '14px',
       width: '370px',
       position: 'fixed',
