@@ -1,5 +1,5 @@
 "use client";
-import "../globals.css";
+
 import React, { useState, useEffect } from 'react';
 import { IoCloseSharp } from "react-icons/io5";
 
@@ -26,16 +26,15 @@ const ErrorMessage: React.FC<ErrorMessageProps> = ({ message, type = 'error' }) 
 
   const baseStyles: { [key: string]: React.CSSProperties } = {
     container: {
-      padding: '10px',
+      padding: '18px 15px 18px 40px',
       margin: '10px auto',
-      border: '1px solid',
-      borderRadius: '5px',
+      borderRadius: '25px',
       fontSize: '14px',
       width: '80vw',
-      maxWidth: '370px', // Added max-width to limit width on larger screens
+      maxWidth: '450px', // Added max-width to limit width on larger screens
       position: 'fixed',
       bottom: '30px',
-      backgroundColor: 'white', // added background color to ensure readability
+      right: '10px',
       zIndex: 1000, // ensure it appears on top of other elements
       display: 'flex', // Added flex display for better alignment
       justifyContent: 'space-between', // Align content space-between
@@ -48,12 +47,11 @@ const ErrorMessage: React.FC<ErrorMessageProps> = ({ message, type = 'error' }) 
     closeButton: {
       marginLeft: '10px',
       cursor: 'pointer',
-      background: '#22445c',
-      padding: '12px', // Adjusted padding for better size
-      border: '1px solid',
+      color: '#22445c',
+      padding: '16px', 
       borderRadius: '50%',
-      fontSize: '14px',
-      color: 'white', // Changed to white for better visibility
+      fontSize: '18px',
+      background: 'white', // Changed to white for better visibility
     },
   };
 
@@ -74,10 +72,10 @@ const ErrorMessage: React.FC<ErrorMessageProps> = ({ message, type = 'error' }) 
         return {
           container: {
             ...baseStyles.container,
-            borderColor: '#22445c',
-            borderLeftColor: '#22445c',
-            backgroundColor: '#e6f3ff',
-            color: '#22445c',
+            borderColor: '#254f75',
+            borderLeftColor: '#254f75',
+            backgroundColor: '#f8911b',
+            color: '#fffffa',
           },
           message: baseStyles.message,
         };

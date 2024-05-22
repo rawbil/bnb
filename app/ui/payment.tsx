@@ -2,7 +2,7 @@
 
 import "../globals.css";
 import React, { useState } from 'react';
-import ErrorMessage from '@/app/ui/ErrorMessage';
+import ErrorMessage from '@/app/ui/errorMessage';
 
 interface CardProps {
   price: string;
