@@ -15,7 +15,7 @@ const Payment: React.FC<CardProps> = ({ price, description }) => {
   const [key, setKey] = useState(0);
 
   const handleError = (type: 'info' | 'warning' | 'error') => {
-    setMessage('Online reservation is not available at the moment! Please contact +254115425094 on WhatsApp to complete your room reservation. Thank you');
+    setMessage('Online reservation is not available at the moment! Please contact +254115 425 094 on WhatsApp to complete your room reservation. Thank you');
     setType(type);
     setKey(prevKey => prevKey + 1); // Update key to force re-render
   };
