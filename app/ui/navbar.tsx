@@ -1,6 +1,7 @@
 "use client";
 
 import "../globals.css";
+import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import Image from "next/image";
 import MobileMenu from '@/app/ui/menu'; // Ensure the MobileMenu component is correctly imported
@@ -56,8 +57,8 @@ const Navbar = () => {
         </form>
       </div>
         <div className={`pc-menu ${showNav ? '' : 'hidden'}`} id="pc-m">
-          <a href="."className="active">Stays</a>
-          <a href="./homes/reviews">Experiences</a>
+          <Link href=".."className="active">Stays</Link>
+          <Link href="/homes/reviews" passHref>Experiences</Link>
           <a href="#">Online Experiences</a>
         </div></div>
         <div className="avatar">
