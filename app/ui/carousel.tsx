@@ -3,6 +3,9 @@
 import React, { useState } from 'react';
 import '../globals.css';
 import Grid from '@/app/ui/grid';
+import { IoMdArrowRoundBack } from "react-icons/io";
+import { IoIosArrowBack } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
 
 interface CollageProps {
   name: string;
@@ -33,11 +36,11 @@ const CustomCarousel: React.FC<CollageProps> = ({ images, name }) => {
   return (
     <div>
       <h1>{name}</h1>
-      <div onClick={handleClick} className="carousel">
+      <div className="carousel">
         <button className="navButton" onClick={goToPrevSlide}>
-          &lt;
+        <IoIosArrowBack />
         </button>
-        <div className="slideContainer">
+        <div onClick={handleClick} className="slideContainer">
           {images.map((image, index) => (
             <div
               key={index}
@@ -48,20 +51,17 @@ const CustomCarousel: React.FC<CollageProps> = ({ images, name }) => {
           ))}
         </div>
         <button className="navButton" onClick={goToNextSlide}>
-          &gt;
+          <IoIosArrowForward />
         </button>
       </div>
       {showComponent && (
         <div className="tog">
-          <span className="togg" onClick={handleIconClick} style={{ cursor: 'pointer' }}>
-            Back {name}
+           <span className="togg" onClick={handleIconClick} style={{ cursor: 'pointer' }}>
+          <IoMdArrowRoundBack /> {name}
           </span>
           <Grid images={images} />
         </div>
       )}
-      <span className="togg-b" onClick={handleIconClick} style={{ cursor: 'pointer' }}>
-        Back
-      </span>
     </div>
   );
 };
