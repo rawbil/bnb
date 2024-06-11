@@ -35,7 +35,7 @@ export default function Home() {
         imageUrl='./3brNyali/IMG-20240610-WA0022.jpg'
       />
       <Card
-        rate="4.92"
+        rate="4.88"
         hrefLink="./homes/3brPalmA"
         county="Mombasa, Kenya"
         region="Palm Terraces Nyali"
@@ -43,14 +43,86 @@ export default function Home() {
         price="ksh 10,000"
         imageUrl='./3brPalmA/IMG-20240610-WA0049.jpg'
       />
+      <Card
+        rate="4.90"
+        hrefLink="./homes/3brNyaliA"
+        county="Mombasa, Kenya"
+        region="3 bedroom Nyali"
+        specific="3 bedroom apartment"
+        price="ksh 15,000"
+        imageUrl='./3brNyaliA/IMG-20240610-WA0036.jpg'
+      />
+      <Card
+        rate="4.95"
+        hrefLink="./homes/3brNyaliB"
+        county="Mombasa, Kenya"
+        region="3 bedroom Nyali"
+        specific="3 bedroom apartment"
+        price="ksh 15,000"
+        imageUrl='./3brNyaliB/IMG-20240610-WA0067.jpg'
+      />
+      <Card
+        rate="4.90"
+        hrefLink="./homes/StudioBamburi"
+        county="Mombasa, Kenya"
+        region="Studio Unit Bamburi"
+        specific="1 bedroom apartment"
+        price="ksh 2,000"
+        imageUrl='./studioBambu/IMG-20240610-WA0087.jpg'
+      />
+      <Card
+        rate="4.96"
+        hrefLink="./homes/DianiVilla"
+        county="Mombasa, Kenya"
+        region="3 bedroom Nyali"
+        specific="3 bedroom apartment"
+        price="ksh 15,000"
+        imageUrl='./DianiVilla/IMG-20240520-WA0020.jpg'
+      />
+      <Card
+        rate="4.91"
+        hrefLink="./homes/3brPalmB"
+        county="Mombasa, Kenya"
+        region="Palm Terraces"
+        specific="3 bedroom apartment"
+        price="ksh 10,000"
+        imageUrl='./3brPalmB/IMG-20240610-WA0099.jpg'
+      />
+      <Card
+        rate="4.97"
+        hrefLink="./homes/Diani4BrB"
+        county="Mombasa, Kenya"
+        region="Diani 4 bedroom"
+        specific="4 bedroom apartment"
+        price="ksh 27,000"
+        imageUrl='./Diani4brB/IMG-20240610-WA0134.jpg'
+      />
+      <Card
+        rate="4.88"
+        hrefLink="./homes/ShanzuPentH"
+        county="Mombasa, Kenya"
+        region="Shanzu Penthouse"
+        specific="2 bedroom apartment"
+        price="ksh 14,000"
+        imageUrl='./ShanzuPentH/IMG-20240610-WA0149.jpg'
+      />
+      <Card
+        rate="4.92"
+        hrefLink="./homes/1brShanzu"
+        county="Mombasa, Kenya"
+        region="1 bedroom shanzu"
+        specific="1 bedroom apartment"
+        price="ksh 8,000"
+        imageUrl='./1brShanzu/IMG-20240610-WA0167.jpg'
+      />
         {/*The cards below are for the earlier homes*/}
       <Card
         rate="4.92"
         hrefLink="./homes/DianiVilla"
         county="Mombasa, Kenya"
-        region="Diani 4 Br Villa"
-        specific="4 bedroom apartment"
-        price="ksh 4,500"
+        region="3 bedroom Nyali"
+        specific="3 bedroom apartment"
+        price="ksh 15,000"
         imageUrl='./DianiVilla/IMG-20240520-WA0020.jpg'
       />
         <Card

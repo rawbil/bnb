@@ -51,7 +51,7 @@ const IndexPage: React.FC = () => {
       </div>
       <div className="des">
        <div className="des-sc">
-        <h2>Entire home in Jambiani, Tanzania</h2>
+        <h2>Diani 4 bedroom, Mombasa</h2>
         <Assets guests={NoOfGuests} bedroom={NoOfBedroom} bed={NoOfBeds} bath="2" />
         <hr />
         <h2 className="section-bed">Where you&apos;ll sleep</h2>
