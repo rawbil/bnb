@@ -8,6 +8,43 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-5">
       <div className="section-1 flex p-5">
       <Card
+        rate="4.50"
+        hrefLink="./homes/ksHeights"
+        county="Bamburi, Mombasa"
+        region="Kisimani Heights"
+        specific="3 bedroom apartment"
+        price="ksh 8,000"
+        imageUrl='./ksheights/IMG-20240610-WA0015.jpg'
+      />
+      <Card
+        rate="4.45"
+        hrefLink="./homes/1brNyali"
+        county="Mombasa, Kenya"
+        region="1 bedroom Nyali"
+        specific="1 bedroom apartment"
+        price="ksh 4,000"
+        imageUrl='./1brNyali/IMG-20240504-WA0025.jpg'
+      />
+      <Card
+        rate="4.90"
+        hrefLink="./homes/3brNyali"
+        county="Mombasa, Kenya"
+        region="3 bedroom Nyali"
+        specific="3 bedroom apartment"
+        price="ksh 12,000"
+        imageUrl='./3brNyali/IMG-20240610-WA0022.jpg'
+      />
+      <Card
+        rate="4.92"
+        hrefLink="./homes/3brPalmA"
+        county="Mombasa, Kenya"
+        region="Palm Terraces Nyali"
+        specific="4 bedroom apartment"
+        price="ksh 10,000"
+        imageUrl='./3brPalmA/IMG-20240610-WA0049.jpg'
+      />
+        {/*The cards below are for the earlier homes*/}
+      <Card
         rate="4.92"
         hrefLink="./homes/DianiVilla"
         county="Mombasa, Kenya"

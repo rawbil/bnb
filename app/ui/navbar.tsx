@@ -59,7 +59,7 @@ const Navbar = () => {
         <div className={`pc-menu ${showNav ? '' : 'hidden'}`} id="pc-m">
           <Link href=".."className="active">Stays</Link>
           <Link href="/homes/reviews" passHref>Experiences</Link>
-          <a href="#">Online Experiences</a>
+          <Link href="/homes/reviews" passHref>Online Experiences</Link>
         </div></div>
         <div className="avatar">
           <a href="#">Airbnb your home</a>
