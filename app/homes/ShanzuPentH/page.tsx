@@ -33,7 +33,6 @@ const IndexPage: React.FC = () => {
     '/ShanzuPentH/IMG-20240610-WA0164.jpg',
     '/ShanzuPentH/IMG-20240610-WA0165.jpg',
     '/ShanzuPentH/IMG-20240610-WA0166.jpg',
-    '/ShanzuPentH/VID-20240610-WA0002.mp4',
   ];
   
   const name = "Shanzu 2 bedroom penthouse - beachfront";
@@ -57,7 +56,7 @@ const IndexPage: React.FC = () => {
       </div>
       <div className="des">
        <div className="des-sc">
-        <h2>Entire home in Jambiani, Tanzania</h2>
+        <h2>Shanzu 2 bedroom penthouse beachfront</h2>
         <Assets guests={NoOfGuests} bedroom={NoOfBedroom} bed={NoOfBeds} bath="2" />
         <hr />
         <h2 className="section-bed">Where you&apos;ll sleep</h2>

@@ -34,8 +34,6 @@ const IndexPage: React.FC = () => {
     '/3brNyali/IMG-20240610-WA0036.jpg',
     '/3brNyali/IMG-20240610-WA0037.jpg',
     '/3brNyali/IMG-20240610-WA0107.jpg',
-    '/3brNyali/VID-20240610-WA0001.mp4',
-    '/3brNyali/VID-20240610-WA0004.mp4',
   ];
   
   const name = "3 bedroom Nyali";

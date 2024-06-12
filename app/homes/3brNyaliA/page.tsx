@@ -15,7 +15,6 @@ import { MdOutlineBedroomParent } from "react-icons/md";
 const IndexPage: React.FC = () => {
   // Example array of image URLs
   const images: string[] = [
-    '/3brNyaliA/IMG-20240610-WA0036.jpg',
     '/3brNyaliA/IMG-20240610-WA0050.jpg',
     '/3brNyaliA/IMG-20240610-WA0051.jpg',
     '/3brNyaliA/IMG-20240610-WA0052.jpg',
@@ -27,6 +26,7 @@ const IndexPage: React.FC = () => {
     '/3brNyaliA/IMG-20240610-WA0058.jpg',
     '/3brNyaliA/IMG-20240610-WA0059.jpg',
     '/3brNyaliA/IMG-20240610-WA0060.jpg',
+    '/3brNyaliA/IMG-20240610-WA0036.jpg',
     '/3brNyaliA/IMG-20240610-WA0061.jpg',
     '/3brNyaliA/IMG-20240610-WA0062.jpg',
     '/3brNyaliA/IMG-20240610-WA0063.jpg',

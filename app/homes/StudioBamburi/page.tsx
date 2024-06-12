@@ -16,7 +16,6 @@ const IndexPage: React.FC = () => {
   // Example array of image URLs
   const images: string[] = [
     '/studioBambu/IMG-20240610-WA0087.jpg',
-    '/studioBambu/IMG-20240610-WA0088.jpg',
     '/studioBambu/IMG-20240610-WA0090.jpg',
     '/studioBambu/IMG-20240610-WA0091.jpg',
     '/studioBambu/IMG-20240610-WA0092.jpg',
@@ -26,7 +25,7 @@ const IndexPage: React.FC = () => {
     '/studioBambu/IMG-20240610-WA0096.jpg',
     '/studioBambu/IMG-20240610-WA0097.jpg',
     '/studioBambu/IMG-20240610-WA0098.jpg',
-    '/studioBambu/VID-20240610-WA0003.mp4',
+    '/studioBambu/IMG-20240610-WA0088.jpg',
   ];
   
   const name = "Studio unit Bamburi";

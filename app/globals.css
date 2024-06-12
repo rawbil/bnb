@@ -131,18 +131,6 @@ body {
   }
 }
 
-/*collage*/
-/*
-.collage{ 
-  display: grid;
-  grid-template-columns: 0.8fr 0.7fr 0.73fr 0.73fr;
-  grid-gap: 8px;
-  width: 80vw;
-  margin: 20px auto;
-  border-radius: 11px;
-}
-*/
-
 .collage { 
   display: grid;
   grid-template-columns: repeat(2, 1fr);
