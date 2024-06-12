@@ -107,8 +107,9 @@ export default function Home() {
         imageUrl='./1brShanzu/IMG-20240610-WA0167.jpg'
       />
         {/*The cards below are for the earlier homes*/}
+        {/*
       <Card
-        rate="4.92"
+        rate="4.92"`
         hrefLink="./homes/DianiVilla"
         county="Mombasa, Kenya"
         region="3 bedroom Nyali"
@@ -178,7 +179,7 @@ export default function Home() {
         specific="1 bedroom apartment"
         price="ksh 3,500"
         imageUrl='./Nyali/IMG-20240504-WA0029.jpg'
-      />
+      />*/}
       </div>
     </main></>
   );
