@@ -1,0 +1,23 @@
+li.username {
+  background-color: var(--color-orange);
+  color: #fff;
+  font-weight: 600;
+}
+
+.username a{
+    color: #fff;
+}
+
+.username:hover {
+  background-color: var(--color-orange);
+  color: #fff;
+}
+
+.button {
+  padding: 10px 25px;
+  font-size: 16px;
+  margin: -10px 0;
+  text-align: left;
+  width: 100%;
+  font-weight: 600;
+}

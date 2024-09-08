@@ -89,6 +89,7 @@ const SignupForm = () => {
       {error && <p style={{ color: "red" }}>{error}</p>}
       {success && <p style={{ color: "green" }}>{success}</p>}
       <button type="submit">Sign Up</button>
+      <a href="/auth/login">Login instead</a>
     </form>
   );
 };

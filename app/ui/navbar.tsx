@@ -4,7 +4,7 @@ import "../globals.css";
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import Image from "next/image";
-import MobileMenu from '@/app/ui/menu'; // Ensure the MobileMenu component is correctly imported
+import MobileMenu from '@/app/ui/menu/menu'; // Ensure the MobileMenu component is correctly imported
 import { RiSearch2Line } from "react-icons/ri";
 
 const Navbar = () => {
@@ -62,7 +62,7 @@ const Navbar = () => {
           <Link href="/homes/reviews" passHref>Online Experiences</Link>
         </div></div>
         <div className="avatar">
-          <a href="#">Airbnb your home</a>
+          <a href="/homes/addHome">Airbnb your home</a>
           <MobileMenu />
         </div>
       </div>
