@@ -23,9 +23,23 @@
     padding: 5px 10px;
 }
 
-.form button{
+.form button, .splashScreen button{
     color: #fff;
     background-color: #f8911b;
     padding: 5px 12px;
     border-radius: 2px;
+}
+
+.splashScreen button{
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.splashScreen{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    font-size: 50px;
+    letter-spacing: .5px;
+
 }
