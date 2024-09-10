@@ -55,7 +55,7 @@ const AddHomeForm = () => {
 
         // Redirect to a different page or reset form
         setTimeout(() => {
-          router.push("/homes"); // Redirect to the homes page
+          router.push("/"); // Redirect to the homes page
         }, 1000);
       }
     } catch (err) {
