@@ -1,8 +1,5 @@
 // app/homes/[id]/page.tsx
 
-import { fetchHomes } from '../../api';
-import { useRouter } from 'next/navigation';
-
 import Rules from '@/app/ui/rules';
 import Payment from '@/app/ui/payment';
 import Amenities from '@/app/Amenities/amen';
