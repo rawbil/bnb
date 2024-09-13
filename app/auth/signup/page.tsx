@@ -1,5 +1,4 @@
 import SignupForm from '../../ui/signup/signupForm';
-import AuthLayout from '../layout';
 
 const SignupPage = () => {
   return (
@@ -10,7 +9,5 @@ const SignupPage = () => {
   );
 };
 
-// Custom layout for the signup page
-SignupPage.getLayout = (page) => <AuthLayout>{page}</AuthLayout>;
 
 export default SignupPage;
