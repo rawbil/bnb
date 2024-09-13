@@ -2,7 +2,7 @@
 
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/homes";
+const API_URL = "https://airbnb-backend-beta.vercel.app/";
 
 export const fetchHomes = async () => {
   const response = await axios.get(API_URL);
