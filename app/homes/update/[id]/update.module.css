@@ -1,0 +1,75 @@
+.form{
+    width: fit-content;
+    border: 1px dashed #ccc;
+    margin: 10px auto;
+    padding: 20px 25px;
+    border-radius: 4px;
+}
+
+.form>div{
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.form label{
+    width: 150px;
+}
+
+.form input, .form select{
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+
+.form button{
+    color: #fff;
+    background-color: #f8911b;
+    padding: 5px 12px;
+    border-radius: 2px;
+}
+
+/* Styles for the multiselect dropdown */
+.multiselect {
+    width: 200px;
+    position: relative;
+}
+
+.selectBox {
+    position: relative;
+    display: block;
+}
+
+.selectBox select {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+#checkboxes {
+    display: none;
+    border: 1px solid #ccc;
+    position: absolute;
+    background-color: #fff;
+    z-index: 1;
+}
+
+#checkboxes label {
+    display: block;
+    padding: 5px;
+}
+
+#checkboxes label:hover {
+    background-color: #ddd;
+}
+

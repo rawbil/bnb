@@ -1,0 +1,31 @@
+.form{
+    width: fit-content;
+    border: 1px dashed #ccc;
+    margin: 10px auto;
+    padding: 20px 25px;
+    border-radius: 4px;
+}
+
+.form>div{
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.form label{
+    width: 150px;
+}
+
+.form input, .form select{
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+
+.form button{
+    color: #fff;
+    background-color: #f8911b;
+    padding: 5px 12px;
+    border-radius: 2px;
+}
